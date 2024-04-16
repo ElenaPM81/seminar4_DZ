@@ -112,7 +112,7 @@ public class Program {
     /**
      * Чтение данных из таблицы coursesDB
      * @param connection Соединение с БД
-     * @return Коллекция студентов
+     * @return Коллекция курсов
      * @throws SQLException Исключение при выполнении запроса
      */
     private static Collection<Course> readData(Connection connection) throws SQLException {
@@ -132,7 +132,7 @@ public class Program {
     }
 
         /**
-     * Обновление данных в таблице students по идентификатору
+     * Обновление данных в таблице courses по идентификатору
      * @param connection Соединение с БД
      * @param course Курс
      * @throws SQLException Исключение при выполнении запроса
